@@ -6,8 +6,8 @@ body {
 header {
   background: #3d3f4c no-repeat center center;
   position: relative;
-  height: 20vh;
-  min-height: 360px;
+  height: 5vh;
+  min-height: 100px;
   background-size: cover;
 }
 
