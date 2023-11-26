@@ -15,6 +15,8 @@
   <link href="styles/bootstrap.css" rel="stylesheet">
   <link href="styles/main.css" rel="stylesheet">
   <script src="js/aos.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/leancloud-storage@4.2.0/dist/av-min.js"></script>
+  <script src="js/user.js"></script>
 </head>
 
 <body id="top">
@@ -88,103 +90,18 @@
       </div>
          <div class="da-section" id="joinus1">
         <div class="container da-company-brand py-5">
-          <div class="h3 pb-3 text-uppercase text-center aos-init aos-animate" data-aos="fade-up">Acknowledgments</div>
+          <div class="h3 pb-3 text-uppercase text-center aos-init aos-animate" data-aos="fade-up" style="margin-top: -50px">Acknowledgments</div>
           <p class="pb-3 aos-init aos-animate" data-aos="fade-up">First and foremost, we'd like to thank all participants, partner doctors and hospitals for having the patience and goodwill to let us finish all the experiments and collect all the valuable data.
           Then we'd like to thank our funding bodies:
-                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up">* Shenzhen Science and Technology Program (Grant No. JCYJ20220818101411025)</p>
-                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up">* Shenzhen Science and Technology Program (Grant No. JCYJ20220818101217 037)</p>
-                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up">* Shenzhen Science and Technology Program (Grant No. JCYJ20210324115810030)</p>
-                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up">* Shenzhen Peacock Team Project (Grant No. KQTD20200820113106007)</p>
-                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up">* National Natural Science Foundation of China (Grant No. NSFC 62271477)</p>
+                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up" style="margin-top: -10px">* National Key R&D Program of China (Grant No. 2020YFC2004100)</p>
+                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up" style="margin-top: -30px">* Shenzhen Science and Technology Program (Grant No. JCYJ20220818101411025)</p>
+                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up" style="margin-top: -30px">* Shenzhen Science and Technology Program (Grant No. JCYJ20220818101217037)</p>
+                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up" style="margin-top: -30px">* Shenzhen Science and Technology Program (Grant No. JCYJ20210324115810030)</p>
+                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up" style="margin-top: -30px">* Shenzhen Peacock Team Project (Grant No. KQTD20200820113106007)</p>
+                    <p class="pb-3 aos-init aos-animate" data-aos="fade-up" style="margin-top: -30px">* National Natural Science Foundation of China (Grant No. NSFC 62271477)</p>
 </p>
         </div>
       </div>
-<!--     -->
-<!--      <div id="projects" class="da-section">-->
-<!--        <div class="container">-->
-<!--          <div class="h3 text-center" data-aos="fade-up">获奖项目展示</div>-->
-<!--        </div>-->
-<!--        <div class="da-team carousel slide py-5" id="da-carouselIndicator" data-ride="carousel" data-aos="zoom-in-up" data-aos-duration="1000">-->
-<!--          <div class="container">-->
-<!--            <ol class="carousel-indicators">-->
-<!--              <li class="active" data-target="#da-carouselIndicator" data-slide-to="0"></li>-->
-<!--              <li data-target="#da-carouselIndicator" data-slide-to="1"></li>-->
-<!--            </ol>-->
-<!--            <div class="carousel-inner">-->
-<!--              <div class="carousel-item active">-->
-<!--                <div class="row">-->
-<!--                  <div class="col-md-4">-->
-<!--                    <div class="card d-block mb-3"><img class="card-img-top" src="https://dn-coding-net-tweet.codehub.cn/photo/2019/c296865a-3fa4-4a37-aef0-c58601c476ee.jpg" alt="image" />-->
-<!--                      <div class="card-body text-center">-->
-<!--                        <div class="h5">基于人脸识别的考勤App</div>-->
-<!--                        <p class="text-muted">"蓝色空间"号</p>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                  <div class="col-md-4">-->
-<!--                    <div class="card d-block mb-3"><img class="card-img-top" src="https://dn-coding-net-tweet.codehub.cn/photo/2019/c296865a-3fa4-4a37-aef0-c58601c476ee.jpg" alt="image" />-->
-<!--                      <div class="card-body text-center">-->
-<!--                        <div class="h5">基于人脸识别的考勤App</div>-->
-<!--                        <p class="text-muted">"蓝色空间"号</p>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                  <div class="col-md-4">-->
-<!--                    <div class="card d-block mb-3"><img class="card-img-top" src="https://dn-coding-net-tweet.codehub.cn/photo/2019/c296865a-3fa4-4a37-aef0-c58601c476ee.jpg" alt="image" />-->
-<!--                      <div class="card-body text-center">-->
-<!--                        <div class="h5">基于人脸识别的考勤App</div>-->
-<!--                        <p class="text-muted">"蓝色空间"号</p>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--              <div class="carousel-item">-->
-<!--                <div class="row">-->
-<!--                  <div class="col-md-4">-->
-<!--                    <div class="card d-block mb-3"><img class="card-img-top" src="https://i.loli.net/2020/04/19/Fgy76K1ep83vYiW.png" alt="image" />-->
-<!--                      <div class="card-body text-center">-->
-<!--                        <div class="h5">智慧酒店项目</div>-->
-<!--                        <p class="text-muted">AntHotel Team</p>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                  <div class="col-md-4">-->
-<!--                    <div class="card d-block mb-3"><img class="card-img-top" src="https://i.loli.net/2020/04/19/Fgy76K1ep83vYiW.png" alt="image" />-->
-<!--                      <div class="card-body text-center">-->
-<!--                        <div class="h5">智慧酒店项目</div>-->
-<!--                        <p class="text-muted">AntHotel Team</p>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                  <div class="col-md-4">-->
-<!--                    <div class="card d-block mb-3"><img class="card-img-top" src="https://i.loli.net/2020/04/19/Fgy76K1ep83vYiW.png" alt="image" />-->
-<!--                      <div class="card-body text-center">-->
-<!--                        <div class="h5">智慧酒店项目</div>-->
-<!--                        <p class="text-muted">AntHotel Team</p>-->
-<!--                      </div>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      <div class="container da-gallery" id="gallery">-->
-<!--        <div class="h3 pb-5 text-center" data-aos="fade-up">实验室照片</div>-->
-<!--        <div class="card-columns">-->
-<!--          <div class="card"><a href="images/member-3.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/member-3.jpg" alt="Gallery Image 1" /></a></div>-->
-<!--          <div class="card"><a href="images/member-5.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/member-5.jpg" alt="Gallery Image 2" /></a></div>-->
-<!--          <div class="card"><a href="images/member-4.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/member-4.jpg" alt="Gallery Image 3" /></a></div>-->
-<!--          <div class="card"><a href="images/member-1.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/member-1.jpg" alt="Gallery Image 4" /></a></div>-->
-<!--          <div class="card"><a href="images/member-2.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/member-2.jpg" alt="Gallery Image 5" /></a></div>-->
-<!--          <div class="card"><a href="images/member-6.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/member-6.jpg" alt="Gallery Image 6" /></a></div>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--    </div>-->
-<!--  </div>-->
   <footer class="bg-secondary da-section">
     <div class="container text-white">
       <div class="row">
@@ -215,5 +132,6 @@
   <script src="js/ekko-lightbox.min.js"></script>
   <script src="scripts/main.js"></script>
 </body>
+
 
 </html>
