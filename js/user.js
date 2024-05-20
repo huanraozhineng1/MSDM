@@ -11,14 +11,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.querySelector('.test2').style.display = 'none';
 
                 // 获取URL链接并显示
-                var urls = [user.get('url_1'), user.get('url_2'), user.get('url_3'), user.get('url_4')];
+                var urls = [user.get('url_1'), user.get('url_2')];
                 var linksList = document.getElementById('links-list');
-                var index_item = ['Main Part One','Main Part two','subset','Main Part Three']
+                var index_item = ['[Download Methods 1]: Download from Tianchi (Recommand!!!)\n','[Download Methods 2]: Download from Baidu driver (Finally, you need to submit your csv files in Tianchi)']
                 urls.forEach(function(url, index) {
                     var listItem = document.createElement('li');
                     var link = document.createElement('a');
                     link.href = url;
-                    link.textContent = "· Download " + index_item[index];
+                    link.textContent =  index_item[index];
                     listItem.appendChild(link);
                     linksList.appendChild(listItem);
                 });
